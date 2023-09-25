@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, sub, var, dl, dd, dt, ul, ol, li, fieldset, form, table, caption, tbody, tfoot, thead, tr, th, td, header, section, footer, article, details { padding: 0; margin: 0; border: 0; outline: 0; ont-family: inherit font-style: inherit; font-size: 10%; font-weight: inherit; vertical-align: baseline; }
+/*default code*/
+@font-face{
+  font-family: montreal;
+  src: url(NeueMontreal-Regular.ttf);
+}
+@font-face{
+  font-family: montreal bold;
+  src: url(NeueMontreal-bold.ttf);
+}
+
+body {
+  background-color: #e5e5e5;
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: montreal, sans-serif;
+}
+
+#main {
+position: fixed;
+background-color: #e5e5e5;
+width:32%;
+height:100vh;
+padding-left:20px;
+top:30px;
+float: left;
+z-index:1;
+}
+
+#main2 {
+position: relative;
+width:61%;
+height:AUTO;
+margin-left:35%;
+padding-left:2%;
+padding-right:2%;
+padding-top:2%;
+float:left;
+z-index:1;
+}
+
+h1 {
+font-size: 16pt;
+color: #000000;
+font-family: montreal, sans-serif;
+}
+
+
+p{
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+.p3{
+  font-size: 12pt;
+  line-height: 1.6;
+  font-family: montreal bold, sans-serif;
+}
+
+.white{
+  font-size: 12pt;
+  color:#000000;
+line-height: 1.6;
+}
+
+h2 {
+font-size: 16pt;
+color: #000000;
+padding-bottom: 20px;
+padding-top: 10PX;
+font-family: montreal , sans-serif;
+}
+
+hr {
+  border-top: 1px solid black;
+}
+
+
+a:link {
+  color: #0c3fff;
+}
+
+/* visited link */
+a:visited {
+  color:  #0c3fff;
+}
+
+/* mouse over link */
+a:hover {
+  color:  #ffffff;
+  background-color: #fd561f;
+}
+
+/* selected link */
+a:active {
+  color:  #0c3fff;
+}
+
+b {
+    font-family: montreal bold, sans-serif;
+}
+
+@media only screen and (max-width: 1336px) {
+
+img{
+  width:400px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left:3%;
+}
+
+  #main {
+    position: relative;
+    background-color: #e5e5e5;
+    width:94%;
+    height:AUTO;
+    margin-left:3%;
+    margin-left:3%;
+    padding-top:5%;
+    float: middle;
+    z-index:1;
+    display: flex;
+    flex-wrap:wrap;
+  }
+  #main2 {
+  position: relative;
+  width:94%;
+  height:auto;
+  margin-left:3%;
+  padding-top:5%;
+  float:middle;
+  margin-bottom:150px;
+  z-index:1;
+  }
+  p{
+    font-size: 12pt;
+    line-height: 1.6;
+  }
+  h2 {
+  font-size: 22pt;
+  color: #000000;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: montreal, sans-serif;
+  }
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img{
+  padding-bottom: 30px;
+}
+
+.small{
+  width: 70px; height: 70px;
+}
+
+img {
+  order: 2;
+}
+
+}

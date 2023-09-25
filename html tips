@@ -1,0 +1,24 @@
+page setup:
+http://www.cs.columbia.edu/~crf/newweb/index.html
+
+iCloud path: cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Shiqi\ Website/
+
+csvpn (tunnelblick):
+https://www.cs.columbia.edu/~crf/software/vpn/webcsvpn/source/mac.vpn.html
+
+log in server:
+http://www.cs.columbia.edu/crf/new-acct/
+clic.cs.columbia.edu (12 VM running Linux)
+compute.cs.columbia.edu (8 Linux machines)
+
+ssh tcwangshiqi@compute04.cs.columbia.edu
+ssh tcwangshiqi@compute05.cs.columbia.edu
+ssh tcwangshiqi@clic.cs.columbia.edu
+
+
+give the permission to get the html
+chmod u=wrx,g=r+x,o=r+x ~/html
+
+
+scp index.html tcwangshiqi@compute04.cs.columbia.edu:~/html/
+scp index.html tcwangshiqi@compute04.cs.columbia.edu:~/secure_html/
